@@ -19,15 +19,11 @@
 
 */
 
-
 /*Chaque  type de Dock sera une .dock_none*/
-
 
 @media screen and (max-width: 980px) {
   :root .dock_001 {
-
     /*Variable config Dock*/
-
 
     /*-----------------------------------*/
     /*-----------------------------------
@@ -69,19 +65,18 @@
 --001-U-margin-right: none;
 --001-U-margin-bottom: none;
 -----------------------------------*/
---001-U-margin-top: none;
---001-U-margin-left: none;
-
+    --001-U-margin-top: none;
+    --001-U-margin-left: none;
   }
   .dock_001 {
     position: relative;
-   
+
     display: flex;
     flex-flow: column;
     align-items: center;
     padding: 20px;
     padding-top: 40px;
-  
+
     width: var(--001-dock-width, 90%);
     height: var(--001-dock-height, 100px);
     margin-right: var(--001-dock-margin-right);
@@ -92,14 +87,11 @@
     border-radius: var(--001-dock-radius, 15px);
     background: var(--001-dock-background, rgba(0, 0, 0, 0.322));
   }
-
 }
 
-@media screen and (min-width:980px) {
-
+@media screen and (min-width: 980px) {
   :root .dock_001 {
     /*Variable config Dock*/
-
 
     /*-----------------------------------*/
     /*-----------------------------------
@@ -117,7 +109,7 @@
   --001-dock-margin-top: none;
   --001-dock-radius: none;
   -----------------------------------*/
-  --001-dock-margin-bottom: 50px;
+    --001-dock-margin-bottom: 50px;
     --001-dock-border: none;
     --001-dock-background: none;
 
@@ -143,18 +135,17 @@
   --001-U-margin-left: -5px;
   --001-U-margin-top: -5px;
   -----------------------------------*/
-
   }
 
   .dock_001 {
     position: relative;
-   justify-content: space-around;
+    justify-content: space-around;
     display: flex;
     flex-flow: row;
     align-items: center;
     padding: 20px;
     padding-top: 40px;
-  
+
     width: var(--001-dock-width, 90%);
     height: var(--001-dock-height, 100px);
     margin-right: var(--001-dock-margin-right);
@@ -165,17 +156,11 @@
     border-radius: var(--001-dock-radius, 15px);
     background: var(--001-dock-background, rgba(0, 0, 0, 0.322));
   }
-
 }
-
 
 /*button interactif index*/
 
-
-
-
 .button_001 {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,7 +174,6 @@
   border: var(--001-button-border, none);
   border-radius: var(--001-button-radius, none);
   background: var(--001-button-background, none);
-
 }
 
 .button_001 img {
@@ -197,11 +181,6 @@
   height: var(--001-img-size-height, 85px);
   border-bottom: 1px solid black;
   padding: 20px;
-  
-  
-  
-
-
 }
 
 .button_001 a {
@@ -215,13 +194,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  Height: 100%;
+  height: 100%;
   position: relative;
   padding: 20px;
 }
 
 .unhover_001 {
-
   opacity: 0;
   z-index: 0;
   position: absolute;
@@ -240,7 +218,6 @@
 
 .button_001:hover .unhover_001 {
   opacity: 1;
-
 }
 
 .button_001:hover .hover_001 {
